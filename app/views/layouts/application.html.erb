@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html class="wf-comfortaa-n7-active wf-active" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head profile="http://gmpg.org/xfn/11">
+
+  <%= render 'layouts/head' %>
+  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+
+</head>
+
+<%= render 'layouts/shim' %>
+
+<body class="yui-skin-sam" data-template="'landing'" data-language="'en'">
+
+<iframe id="_yuiResizeMonitor" title="Text Resize Monitor" style="position: absolute; visibility: visible; background-color: transparent; border-width: 0px; width: 2em; height: 2em; left: 0px; top: -27px;">
+  
+</iframe>
+
+<style type="text/css">
+      
+      #globalbar-search { padding: 0; border-right: 0; }
+    
+</style>
+
+<script type="text/rocketscript" data-rocketoptimized="true">
+      
+      $(document).ready (function () {
+        $("#globalbar-search a").click(function(event) {
+            event.preventDefault();
+            $("#globalbar-search-window").toggle();
+            $("#globalbar-search-form-value").focus();
+        });
+
+        $("#globalbar-search-close").click(function(event) {
+            event.preventDefault();
+            $("#globalbar-search-window").hide();
+        });
+      });
+    
+    </script>
+
+<div id="global-bar-wrapper ">
+
+<%= render 'layouts/globalbarwrapper' %>
+
+</div>
+
+
+<div id="container" class="container">  
+
+
+
+
+<div class="content-wrapper">
+
+<%= render 'layouts/hd' %>
+
+
+<div id="hd-content" class="clearfix">
+  <div id="globalbar-search-window" style="display:none;">
+      <a id="globalbar-search-close" title="Minimize" href="#">
+         <img alt="Minimize" src="http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/close-chat.png?1332902159">
+      </a>
+   
+   
+  </div>
+     
+   
+</div>
+
+</div>
+</div>
+
+
+<div class="clear"></div>
+
+<%= render 'layouts/messages' %>
+
+<%= yield %>
+
+<div id="ft-content" style="background-image:url('');">
+  <%= render 'layouts/footer' %>
+</div>
+
+
+
+<a name="bottom"></a>
+
+
+
+
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,135 @@
+
+img {
+    border: 0 none;
+    max-width: 100%;
+    vertical-align: middle;
+}
+a {
+    color: #0088CC;
+}
+.carousel {
+    line-height: 1;
+}
+body {
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+html {
+    font-size: 100%;
+}
+
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+#options {
+    margin: 40px;
+    text-align: center;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+#custom-doc, #ft, .content-wrapper {
+    text-align: left;
+}
+#doc, #doc2, #doc3, #doc4, .yui-t1, .yui-t2, .yui-t3, .yui-t4, .yui-t5, .yui-t6, .yui-t7 {
+    text-align: left;
+}
+#custom-doc, #ft, .content-wrapper {
+    text-align: left;
+}
+body {
+    color: #666666;
+    font-family: "Lucida Grande",Geneva,Helvetica,Arial,clean,sans-serif;
+    font-size: small;
+    text-align: center;
+}
+html {
+    color: #000000;
+}
+
+
+.spotlight-title {
+    display: block;
+    font-size: 146.5%;
+    margin: 0 0 0.3em;
+    padding: 0;
+    text-align: center;
+}
+.h2 {
+    font-size: 123.1%;
+}
+h1, .h1, h2, .h3, .h2, .h4, .h5 {
+    color: #3399CC;
+    font-weight: 700;
+    margin: 0;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+#custom-doc, #ft, .content-wrapper {
+    text-align: left;
+}
+#doc, #doc2, #doc3, #doc4, .yui-t1, .yui-t2, .yui-t3, .yui-t4, .yui-t5, .yui-t6, .yui-t7 {
+    text-align: left;
+}
+#custom-doc, #ft, .content-wrapper {
+    text-align: left;
+}
+body {
+    color: #666666;
+    font-family: "Lucida Grande",Geneva,Helvetica,Arial,clean,sans-serif;
+    font-size: small;
+    text-align: center;
+}
+html {
+    color: #000000;
+}
+
+
+.spotlight-title {
+    display: block;
+    font-size: 146.5%;
+    margin: 0 0 0.3em;
+    padding: 0;
+    text-align: center;
+}
+.h2 {
+    font-size: 123.1%;
+}
+h1, .h1, h2, .h3, .h2, .h4, .h5 {
+    color: #3399CC;
+    font-weight: 700;
+    margin: 0;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+#custom-doc, #ft, .content-wrapper {
+    text-align: left;
+}
+#doc, #doc2, #doc3, #doc4, .yui-t1, .yui-t2, .yui-t3, .yui-t4, .yui-t5, .yui-t6, .yui-t7 {
+    text-align: left;
+}
+#custom-doc, #ft, .content-wrapper {
+    text-align: left;
+}
+body {
+    color: #666666;
+    font-family: "Lucida Grande",Geneva,Helvetica,Arial,clean,sans-serif;
+    font-size: small;
+    text-align: center;
+}
+html {
+    color: #000000;
+}

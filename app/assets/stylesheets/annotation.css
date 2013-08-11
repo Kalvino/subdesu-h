@@ -1,0 +1,522 @@
+/*image note desc*/
+.image-note-desc{
+  padding-left: 22px;
+  background-image: url("http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/image-annotate.png?1332898394");
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 85%;
+  color: #999999;
+  height: 16px;
+}
+
+/*image add a note button*/
+.image-annotate-add {
+  padding-left: 22px;
+  padding-top: 2px;
+  margin-bottom: 2px;
+  background-image: url("http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/image-annotate.png?1332898394");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.image-annotate-add:hover {
+    color: #1a8dff;
+}
+.image-annotate-add.form-loading {
+  padding-left: 18px;
+  background-image: url("http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/refresh.gif?1332898394");
+  background-image: url("http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/refresh.gif?1332898394");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.image-meta {
+  clear: both;
+  overflow: hidden;
+  font-weight: normal;
+}
+.image-meta div {
+  font-weight: normal;
+}
+.image-meta p {
+  margin: 0;
+  display: inline;
+}
+.image-id a {
+  color: #999999;
+  font-weight: normal;
+  font-size: 11px;
+  text-decoration: none;
+}
+.image-id a:hover {
+  color: #666666;
+  text-decoration: none;
+}
+.image-id {
+  float: left;
+  color: #999999;
+  /*font-weight: bold;*/
+
+  font-size: 11px;
+  text-decoration: none;
+}
+
+/*image note canvas*/
+.image-annotate-canvas-notice {
+  position: absolute;
+  width: 100%;
+  padding: 6px;
+  background-image: url("http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/opaque.png?1332898394");
+  background-image: url("http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/opaque.png?1332898394");
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  font-weight: bold;
+}
+.image-annotate-canvas-notice img {
+  border: 0;
+  padding: 0;
+  display: inline;
+  vertical-align: bottom;
+}
+.image-annotate-canvas-error {
+  padding: 6px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  font-weight: bold;
+  position: absolute;
+}
+.image-annotate-canvas {
+  border: solid 1px #ccc;
+  background-position: left top;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0;
+  position: relative;
+  /*-webkit-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    box-shadow: 0 1px 10px rgba(0,0,0,.1);*/
+}
+
+/*image note loader*/
+.image-annotate-loading {
+	background: url(http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/refresh.gif) no-repeat;
+}
+
+/*image note error*/
+.image-annotate-error {
+	background: url(../images/error.gif) no-repeat;
+}
+
+/*image note author*/
+.image-annotate-author {
+	font-size:11px;
+	font-style:italic;
+	color:#CCC;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+
+.image-annotate-author img {
+	border: 0px;
+}
+
+/*image note canvas*/
+.image-annotate-canvas {
+	background-position: left top;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+	
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.image-annotate-view {
+    display: none;
+    position: relative;
+}
+.image-annotate-area {
+    border: 1px solid #000000;
+    position: absolute;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.image-annotate-area div {
+    border: 1px solid #FFFFFF;
+    display: block;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.image-annotate-area-hover div {
+    border-color: #28B6F1 !important;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.image-annotate-area-editable {
+    cursor: pointer;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.image-annotate-area-editable-hover div {
+    border-color: #28B6F1 !important;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.image-annotate-note {
+
+    background: none repeat scroll 0 0;
+
+    background-image:url(../images/black.png);
+
+    color: #FFF;
+    border: solid 1px #333;
+    display: none;
+
+    font-family: Verdana, Sans-Serif;
+
+    font-size: 11px;
+
+    max-width: 200px;
+
+    padding: 6px 10px;
+
+    position: absolute;
+
+	-moz-border-radius: 8px;
+
+	border-radius: 8px;}
+
+.image-annotate-note .actions {
+
+    display: block;
+
+    font-size: 80%;
+
+}
+
+.image-annotate-edit {
+
+    display: none;
+
+}
+
+#image-annotate-edit-form {
+    font-family: Verdana, Sans-Serif;
+    font-size: 11px;
+    background-image: url("http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/opaque.png?1332898394");
+    background-image: url("http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/opaque.png?1332898394");
+    border: 2px solid #ffffff;
+    height: 120px;
+    padding: 7px;
+    position: absolute;
+    width: 260px;
+	margin-top:10px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+#image-annotate-edit-form form {
+
+    clear: right;
+
+    margin: 0 !important;
+
+    padding: 0;
+
+    z-index: 999;
+
+}
+
+#image-annotate-edit-form .box {
+    margin: 0;
+}
+#image-annotate-edit-form input.form-text, #image-annotate-edit-form #edit-comment-wrapper textarea {
+	
+}
+
+#image-annotate-edit-form input {
+	font-family: Verdana, Sans-Serif;
+	font-size:11px;
+	 margin:1px;
+	 width:75%;
+}
+
+#image-annotate-edit-form textarea {
+	font-family: Verdana, Sans-Serif;
+	font-size:11px;
+    height: 50px;   
+    width: 240px;
+}
+#image-annotate-edit-form fieldset {
+    background: transparent none repeat scroll 0 0;
+}
+#image-annotate-edit-form .form-item {
+    margin: 0 0 5px;
+}
+#image-annotate-edit-form .form-button, #image-annotate-edit-form .form-submit {
+    margin: 0;
+}
+#image-annotate-edit-form a {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    border: solid 1px @white;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    float: left;    
+    font-family: Verdana, Sans-Serif;
+    font-size: 14px;        
+    height: 18px;
+    line-height: 14px;
+    padding: 4px 4px 0px 20px;
+    margin: 3px 6px 3px 0;
+    width: 50px;
+}
+#image-annotate-edit-form a:hover {
+    background-color: #eee;
+}
+.image-annotate-edit-area {
+    border: 2px solid white;
+    background-image: url("http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/light-opaque.png?1332898394");
+    background-image: url("http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/light-opaque.png?1332898394");
+    cursor: move;
+    display: block;
+    height: 60px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+    position: absolute !important;
+    top: 10px;
+    width: 60px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.image-annotate-edit-area .ui-resizable-handle {
+    opacity: 0.8;
+}
+
+/*image note button*/
+.image-annotate-edit-ok {
+    background-image: url(http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/accept.png);
+}
+.image-annotate-edit-delete {
+    background-image: url(http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/delete.png);
+}
+.image-annotate-edit-close {
+    background-image: url(http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/cross.png);
+}
+
+/*image note resize*/
+.ui-resizable {
+    position: relative;
+}
+.ui-resizable-handle {
+    position: absolute;
+    font-size: 0.1px;
+    z-index: 99999;
+    display: block;
+}
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable- autohide .ui-resizable-handle {
+    display: block;
+}
+.ui-resizable-n {
+    cursor: n-resize;
+    height: 7px;
+    width: 100%;
+    top: -5px;
+    left: 0px;
+}
+.ui-resizable-s {
+    cursor: s-resize;
+    height: 7px;
+    width: 100%;
+    bottom: -5px;
+    left: 0px;
+}
+.ui-resizable-e {
+    cursor: e-resize;
+    width: 7px;
+    right: -5px;
+    top: 0px;
+    height: 100%;
+}
+.ui-resizable-w {
+    cursor: w-resize;
+    width: 7px;
+    left: -5px;
+    top: 0px;
+    height: 100%;
+}
+.ui-resizable-se {
+    cursor: se-resize;
+    width: 12px;
+    height: 12px;
+    right: 1px;
+    bottom: 1px;
+}
+.ui-resizable-sw {
+    cursor: sw-resize;
+    width: 9px;
+    height: 9px;
+    left: -5px;
+    bottom: -5px;
+}
+.ui-resizable-nw {
+    cursor: nw-resize;
+    width: 9px;
+    height: 9px;
+    left: -5px;
+    top: -5px;
+}
+.ui-resizable-ne {
+    cursor: ne-resize;
+    width: 9px;
+    height: 9px;
+    right: -5px;
+    top: -5px;
+}
+
+
+/*image note comments thumbnail*/
+
+.image-note-thumbnail {
+    overflow: hidden;
+    border:3px solid #666;
+	border: solid 3px #CCC;
+
+	-moz-border-radius: 10px;
+
+	border-radius: 10px;
+    background: url(../images/ajax-loader.gif) no-repeat center center #FFFFFF;
+
+    float: left;
+    height: 38px !important;
+    margin-right: 10px;
+    width: 38px !important;
+}
+
+.image-note-thumbnail:hover {
+
+	border: solid 3px #999;
+
+	-moz-border-radius: 10px;
+
+	border-radius: 10px;
+
+}
+
+.mask {
+
+	width: 500%;
+	height: 500%;
+
+}
+
+.image-note-thumbnail img {
+ position: relative;
+ margin-left:0px;
+}
+.item-thumb {
+  display: block;
+  float: left;
+  margin-right: 8px;
+  border: 1px solid #dddddd;
+  padding: 3px;
+  overflow: hidden;
+  position: relative;
+}
+.thumb,
+.item-thumb {
+  display: block;
+  width: 75px;
+  height: 75px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.thumb {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.item-thumb:hover,
+.item-thumb .thumb:hover,
+.thumb-view-count:hover {
+  text-decoration: none;
+}
+.thumb-comment-count:hover {
+  text-decoration: underline;
+}
+.item-thumb .thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  z-index: 1;
+}
+.thumb-comment-count {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  padding: 3px 4px;
+  font-size: 85%;
+  font-size: 85%;
+  color: white;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-weight: bold:
+    display: block;
+  z-index: 2;
+  padding-left: 25px;
+  background-image: url("http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/comments_gray.png?1332898394");
+  background-image: url("http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/www.subdesu-h.net/public/img/subdesu/comments_gray.png?1332898394");
+  background-repeat: no-repeat;
+  background-position: 6px center;
+}
+.thumb-view-count {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  padding: 3px 4px;
+  font-size: 85%;
+  font-size: 85%;
+  color: white;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-weight: bold:
+    display: block;
+  z-index: 2;
+}
+html.ie .thumb-comment-count,
+html.ie .thumb-view-count {
+  background-color: #202020;

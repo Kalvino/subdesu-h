@@ -1,0 +1,10 @@
+<% if user_signed_in? %>
+    Hello: <b><%= current_user.username %> </b><br />
+    You are already signed in! 
+
+
+    <%= link_to "Log out", destroy_user_session_path, :method => 'delete' %>
+<% else %>
+    <%= render 'devise/sessions/form' %> // Rendering the partial here
+    <%= link_to "Login", new_user_session_path %>
+<% end %>
