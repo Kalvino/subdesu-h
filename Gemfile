@@ -9,7 +9,8 @@ gem 'sqlite3'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'simple_form'
-
+gem 'high_voltage'
+gem 'haml'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

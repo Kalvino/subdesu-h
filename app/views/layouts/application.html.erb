@@ -3,14 +3,17 @@
 <head profile="http://gmpg.org/xfn/11">
 
   <%= render 'layouts/head' %>
-  <%= javascript_include_tag "application" %>
+  
   <%= stylesheet_link_tag    "application", :media => "all" %>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 
 </head>
 
 <%= render 'layouts/shim' %>
 
 <body class="yui-skin-sam" data-template="'landing'" data-language="'en'">
+
+
 
 <iframe id="_yuiResizeMonitor" title="Text Resize Monitor" style="position: absolute; visibility: visible; background-color: transparent; border-width: 0px; width: 2em; height: 2em; left: 0px; top: -27px;">
   
@@ -80,6 +83,9 @@
 
 <div id="ft-content" style="background-image:url('');">
   <%= render 'layouts/footer' %>
+
+  <%= javascript_include_tag "application", "fantastic.galleria.js" %>
+
 </div>
 
 

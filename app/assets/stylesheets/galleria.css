@@ -1,0 +1,20 @@
+.galleria{
+  list-style:none;
+  background-color: white;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.galleria li{
+  height: 462px;
+  width: 938px;  
+  float:left;
+  margin: 0;
+}
+.galleria img {
+  display: block;
+}
+.galleria li div img{cursor:pointer}
+.galleria li img.thumb{cursor:pointer;}
+.galleria li .caption{display:block;}
+

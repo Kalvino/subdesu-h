@@ -48,6 +48,9 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    haml (4.0.3)
+      tilt
+    high_voltage (1.0.1)
     hike (1.2.3)
     i18n (0.6.1)
     journey (1.0.4)
@@ -120,6 +123,8 @@ DEPENDENCIES
   bootstrap-sass
   coffee-rails (~> 3.2.1)
   devise
+  haml
+  high_voltage
   jquery-rails
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)

@@ -1,10 +1,10 @@
 SubdesuH::Application.routes.draw do
 
   devise_for :users
-  
-  get 'about' => "pages/about"
 
-  resources :auth
+  get 'auth/login'
+  get 'auth/signup'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
