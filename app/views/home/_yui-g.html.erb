@@ -11,12 +11,9 @@
 			<div id="floating-box-wrapper" class="mg-box clearfix">
 				<div class="landing_background">
 					<div id="landing-ads" class="clearfix">
-						<a target="_blank" href="http://moe.jlist.com/click/4607/88">
-							<img src="http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/farm8.static.flickr.com/7209/88.jpg">
-						</a>
-						<a id="landing-ad-right" target="_blank" href="http://moe.jlist.com/click/4607/88">
-							<img src="http://www.subdesu-h.net/wp-content/themes/CustomWPTheme/farm8.static.flickr.com/7209/89.jpg">
-						</a>
+					    <%= link_to image_tag("88.png", alt: "logo", action: "http://moe.jlist.com/click/4607/88", target: "_blank", size: "460x75") %>
+
+						<%= link_to image_tag("89.png", id: "landing-ad-right", alt: "logo", action: "http://moe.jlist.com/click/4607/88", target: "_blank", size: "460x75") %>
 					</div>
 					<div class="caption-image">
 						<a href="#choose"> </a>
